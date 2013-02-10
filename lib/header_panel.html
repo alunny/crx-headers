@@ -1,32 +1,44 @@
-<h1>Custom Headers</h1>
+<html>
+    <head>
+        <title>Custom Headers Panel</title>
+        <style>
+            body {
+                font-family: 'Lucida Grande', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Custom Headers</h1>
 
-<!-- existing custom headers -->
-<h2>Existing</h2>
-<table id="existing_headers">
-    <tbody>
-        <tr>
-            <th>Enabled?</th><th>Name</th><th>Value</th><th>Hosts</th><th>Trash?</th>
-        </tr>
-    </tbody>
-</table>
+        <!-- existing custom headers -->
+        <h2>Existing</h2>
+        <table id="existing_headers">
+            <tbody>
+                <tr>
+                    <th>Enabled?</th><th>Name</th><th>Value</th><th>Hosts</th><th>Trash?</th>
+                </tr>
+            </tbody>
+        </table>
 
-<!-- form to add new headers -->
-<h2>Add new header</h2>
-<form id="new_headers">
-    <label for="header_name">Name</label>
-    <input type="text" name="header_name" id="header_name" />
-    <br>
+        <!-- form to add new headers -->
+        <h2>Add new header</h2>
+        <form id="new_headers">
+            <label for="header_name">Name</label>
+            <input type="text" name="header_name" id="header_name" />
+            <br>
 
-    <label for="header_value">Value</label>
-    <input type="text" name="header_value" id="header_value" />
-    <br>
+            <label for="header_value">Value</label>
+            <input type="text" name="header_value" id="header_value" />
+            <br>
 
-    <label for="header_hosts">Hosts</label>
-    <input type="text" name="header_hosts" id="header_hosts" />
-    <br>
+            <label for="header_hosts">Hosts</label>
+            <input type="text" name="header_hosts" id="header_hosts" />
+            <br>
 
-    <input type="submit" />
-</form>
+            <input type="submit" />
+        </form>
 
-<script src="arrayStore.js"></script>
-<script src="headerPanel.js"></script>
+        <script src="arrayStore.js"></script>
+        <script src="headerPanel.js"></script>
+    </body>
+</html>
