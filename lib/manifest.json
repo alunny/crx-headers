@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Custom Headers",
+    "description": "Set custom headers in Chrome dev tools",
+    "version": "0.1",
+
+    "background": {
+        "scripts": [ "eventPage.js" ]
+    },
+
+    "devtools_page": "headers.html",
+
+    "permissions": [
+        "webRequest", "webRequestBlocking", "<all_urls>"
+    ]
+}
