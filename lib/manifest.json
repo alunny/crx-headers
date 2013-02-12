@@ -6,7 +6,7 @@
     "version": "0.1",
 
     "background": {
-        "scripts": [ "arrayStore.js", "eventPage.js" ]
+        "scripts": [ "hostMatcher.js", "arrayStore.js", "eventPage.js" ]
     },
 
     "devtools_page": "headers.html",
